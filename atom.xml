@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://doctor0.github.io/"/>
-  <updated>2019-05-29T01:33:44.229Z</updated>
+  <updated>2019-05-29T01:48:53.944Z</updated>
   <id>https://doctor0.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://doctor0.github.io/2019/05/29/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/"/>
     <id>https://doctor0.github.io/2019/05/29/hexo建站过程/</id>
     <published>2019-05-29T01:18:05.000Z</published>
-    <updated>2019-05-29T01:33:44.229Z</updated>
+    <updated>2019-05-29T01:48:53.944Z</updated>
     
     <summary type="html">
     
@@ -30,7 +30,7 @@
       <category term="建站" scheme="https://doctor0.github.io/categories/%E5%BB%BA%E7%AB%99/"/>
     
     
-      <category term="categories" scheme="https://doctor0.github.io/tags/categories/"/>
+      <category term="hexo" scheme="https://doctor0.github.io/tags/hexo/"/>
     
   </entry>
   
