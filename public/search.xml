@@ -1,47 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>hexo建站过程</title>
-      <link href="/2019/05/29/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/"/>
-      <url>/2019/05/29/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[hexo建站过程]]></title>
+    <url>%2F2019%2F05%2F29%2Fhexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%2F</url>
+    <content type="text"></content>
       <categories>
-          
-          <category> 建站 </category>
-          
+        <category>建站</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> MaterialFlow </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>建站历程</title>
-      <link href="/2019/05/28/%E5%BB%BA%E7%AB%99%E5%8E%86%E7%A8%8B/"/>
-      <url>/2019/05/28/%E5%BB%BA%E7%AB%99%E5%8E%86%E7%A8%8B/</url>
-      
-        <content type="html"><![CDATA[<p>哈哈哈斤斤计较</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>hexo</tag>
+        <tag>MaterialFlow</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[建站历程]]></title>
+    <url>%2F2019%2F05%2F28%2F%E5%BB%BA%E7%AB%99%E5%8E%86%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[哈哈哈斤斤计较]]></content>
+  </entry>
 </search>
