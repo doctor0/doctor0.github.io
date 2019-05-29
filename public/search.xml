@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[hexo建站过程]]></title>
-    <url>%2F2019%2F05%2F29%2Fhexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%2F</url>
-    <content type="text"></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>hexo建站过程</title>
+      <link href="/2019/05/29/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/"/>
+      <url>/2019/05/29/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>hexo官网提供了完整的建站流程，这边就不赘述了。<br><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p><p>git教程可以参考廖雪峰的网站（git感觉和正则一样，不用就忘了。。。）：<br><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">https://www.liaoxuefeng.com/wiki/896043488029600</a></p><p>github建站流程：<br><a href="https://www.jianshu.com/p/7124c5fe0fa7" target="_blank" rel="noopener">https://www.jianshu.com/p/7124c5fe0fa7</a></p><p>theme：<br><a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p><p>我用的是MaterialFlow（赞）：<br><a href="https://github.com/stkevintan/hexo-theme-material-flow" target="_blank" rel="noopener">https://github.com/stkevintan/hexo-theme-material-flow</a></p><p>这个网站也花了差不多两个晚上，但也比自己写（说的好像我会写一样）要快很多了。好了，属于我自己的网站就诞生了。</p>]]></content>
+      
+      
       <categories>
-        <category>建站</category>
+          
+          <category> 建站 </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>MaterialFlow</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[建站历程]]></title>
-    <url>%2F2019%2F05%2F28%2F%E5%BB%BA%E7%AB%99%E5%8E%86%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[哈哈哈斤斤计较]]></content>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> MaterialFlow </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
