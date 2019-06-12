@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>Archives: 2019 | SA1DE5&#39;s Blog</title>
+  <title>python爬虫框架Scrapy[1] | SA1DE5&#39;s Blog</title>
   <meta name="description" content>
   <meta name="keywords" content>
   <meta name="HandheldFriendly" content="True">
@@ -12,13 +12,24 @@
   <link rel="shortcut icon" href="/images/sh.ico">
   <link rel="alternate" href="/atom.xml" title="SA1DE5's Blog">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="SA1DE5&#39;s Blog">
-<meta property="og:url" content="https://doctor0.github.io/archives/2019/index.html">
+  <meta name="description" content="XPath表达式：选中整个文档: $x(‘/html’)选择多个p标签中的一个: $x(‘/html/body/div/p[*]’) ‘//‘ 语法(可以取得某一特定类型的元素):$x(‘//p’)使用text()函数，只选取文本: $x(‘//a/text()’)使用符号来选择指定层级的所有元素: $x(‘//div/‘)还可以使用更高级的谓词来选取元素:$x(‘//a[@href]’)$x(‘">
+<meta name="keywords" content="Scrapy,Python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python爬虫框架Scrapy[1]">
+<meta property="og:url" content="https://doctor0.github.io/2019/06/12/python爬虫框架Scrapy-1/index.html">
 <meta property="og:site_name" content="SA1DE5&#39;s Blog">
+<meta property="og:description" content="XPath表达式：选中整个文档: $x(‘/html’)选择多个p标签中的一个: $x(‘/html/body/div/p[*]’) ‘//‘ 语法(可以取得某一特定类型的元素):$x(‘//p’)使用text()函数，只选取文本: $x(‘//a/text()’)使用符号来选择指定层级的所有元素: $x(‘//div/‘)还可以使用更高级的谓词来选取元素:$x(‘//a[@href]’)$x(‘">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://doctor0.github.io/2019/06/12/python爬虫框架Scrapy-1/1.png">
+<meta property="og:image" content="https://doctor0.github.io/2019/06/12/python爬虫框架Scrapy-1/2.png">
+<meta property="og:image" content="https://doctor0.github.io/2019/06/12/python爬虫框架Scrapy-1/3.png">
+<meta property="og:image" content="https://doctor0.github.io/2019/06/12/python爬虫框架Scrapy-1/4.png">
+<meta property="og:image" content="https://doctor0.github.io/2019/06/12/python爬虫框架Scrapy-1/5.png">
+<meta property="og:updated_time" content="2019-06-12T07:44:41.102Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SA1DE5&#39;s Blog">
+<meta name="twitter:title" content="python爬虫框架Scrapy[1]">
+<meta name="twitter:description" content="XPath表达式：选中整个文档: $x(‘/html’)选择多个p标签中的一个: $x(‘/html/body/div/p[*]’) ‘//‘ 语法(可以取得某一特定类型的元素):$x(‘//p’)使用text()函数，只选取文本: $x(‘//a/text()’)使用符号来选择指定层级的所有元素: $x(‘//div/‘)还可以使用更高级的谓词来选取元素:$x(‘//a[@href]’)$x(‘">
+<meta name="twitter:image" content="https://doctor0.github.io/2019/06/12/python爬虫框架Scrapy-1/1.png">
     
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -119,45 +130,37 @@
   <div class="l_body">
     <div class='container clearfix'>
       <div class='l_main'>
-        
+        <article id="post-python爬虫框架Scrapy-1" class="post white-box article-type-post" itemscope itemprop="blogPost">
+	<section class="meta">
+	<h2 class="title">
+  	<a href="/2019/06/12/python爬虫框架Scrapy-1/">
+    	python爬虫框架Scrapy[1]
+    </a>
+  </h2>
+	<time>
+	  Jun 12, 2019
+	</time>
 	
-  <script>
-    window.subData= { title:'Year : 2019'}
-  </script>
-
-<section class="post-list">
-	
-    <div class="post-wrapper">
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2019/06/12/python爬虫框架Scrapy-1/">
-        python爬虫框架Scrapy[1]
-      </a>
-    </h2>
-    
-    <time>
-      Jun 12, 2019
-    </time>
-		
     
     <div class="cats">
         <a href="/categories/爬虫/">爬虫</a>
     </div>
 
-  </section>
-  <section class="article typo">
-	  <p>XPath表达式：<br>选中整个文档: $x(‘/html’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/1.png"><br>选择多个p标签中的一个: $x(‘/html/body/div/p[*]’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/2.png"></p>
+	</section>
+	
+		<section class="toc-wrapper"></section>
+	
+	<section class="article typo">
+  	<div class="article-entry" itemprop="articleBody">
+    	<p>XPath表达式：<br>选中整个文档: $x(‘/html’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/1.png"><br>选择多个p标签中的一个: $x(‘/html/body/div/p[*]’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/2.png"></p>
 <p>‘//‘ 语法(可以取得某一特定类型的元素):<br>$x(‘//p’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/3.png"><br>使用text()函数，只选取文本: $x(‘//a/text()’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/4.png"><br>使用<em>符号来选择指定层级的所有元素: $x(‘//div/</em>‘)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/5.png"><br>还可以使用更高级的谓词来选取元素:<br>$x(‘//a[@href]’)<br>$x(‘//a[contains(@href,”iana”)]’)<br>$x(‘//a[start-with(@href,”<a href="http://www.&quot;)]&#39;" target="_blank" rel="noopener">http://www.&quot;)]&#39;</a>)<br>$x(‘//a[not(contains(@href,”abc”))]’)<br>…</p>
 <p>HtmlResponse类<br>response.xpath(‘/html’).extract()<br>…</p>
 <p>任务示例：<br>获取id为”firstHeading”的h1标签下span中的text.<br>//h1[@id=”firstHeading”]/span/text()<br>获取id为”toc”的div标签内的ul中所有链接的URL<br>//div[@id=”toc”]/ul//a/@href<br>获取class属性包含”ltr”以及class属性包含”skin-vector”的任意元素内所有h1中的文本。这两个字符串可能在同一个class中，也可能在不同的class中。<br>//<em>[contains(@class,”ltr”) and contains(@class,”skin-vector”)]//h1//text()<br>选择class属性值为”infobox”的表格中第一张图片的URL。<br>//table[@class=”infobox”]//img[1]/@src<br>选择class属性以”refirst”开头的div标签中所有链接的URL<br>//table[start-with(@class,”refirst”)]//a/@href<br>选择子元素包含文本”References”的元素之后的div元素中所有链接的URL<br>//</em>[text()=”References”]/../following-sibling::div//a/@href<br>获取页面中每张图片的URL<br>//img/@src</p>
 <p>预见变化<br>1、避免使用数组索引(数值)<br>2、类并没有那么好用(会变化)<br>3、有意义的面向数据的类要比具体的或者面向布局的类好<br>4、ID通常是最可靠的</p>
 
-    
-    
-    
-	  <div class="full-width auto-padding tags">
+  	</div>
+	  
+	  <div class="article-tags tags">
       
         <a href="/tags/Scrapy/">Scrapy</a>
       
@@ -165,56 +168,26 @@
       
 	  </div>
     
-  </section>
-</article>
-    </div>
-  
-    <div class="post-wrapper">
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2019/05/29/hexo建站过程/">
-        hexo建站过程
-      </a>
-    </h2>
-    
-    <time>
-      May 29, 2019
-    </time>
 		
-    
-    <div class="cats">
-        <a href="/categories/建站/">建站</a>
-    </div>
-
-  </section>
-  <section class="article typo">
-	  <p>hexo官网提供了完整的建站流程，这边就不赘述了。<br><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p>
-<p>git教程可以参考廖雪峰的网站（git感觉和正则一样，不用就忘了。。。）：<br><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">https://www.liaoxuefeng.com/wiki/896043488029600</a></p>
-<p>github建站流程：<br><a href="https://www.jianshu.com/p/7124c5fe0fa7" target="_blank" rel="noopener">https://www.jianshu.com/p/7124c5fe0fa7</a></p>
-<p>theme：<br><a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p>
-<p>我用的是MaterialFlow（赞）：<br><a href="https://github.com/stkevintan/hexo-theme-material-flow" target="_blank" rel="noopener">https://github.com/stkevintan/hexo-theme-material-flow</a></p>
-<p>这个网站也花了差不多两个晚上，但也比自己写（说的好像我会写一样）要快很多了。好了，属于我自己的网站就诞生了。</p>
-
-    
-    
-    
-	  <div class="full-width auto-padding tags">
-      
-        <a href="/tags/hexo/">hexo</a>
-      
-        <a href="/tags/MaterialFlow/">MaterialFlow</a>
-      
-	  </div>
-    
-  </section>
+	
+		<div class="art-item-footer">
+				
+				
+					<span class="art-item-right">next：<a href="/2019/05/29/hexo建站过程/" rel="next" title="hexo建站过程">
+						hexo建站过程
+					</a><i class="icon icon-chevron-thin-right"></i></span>
+				
+		</div>
+	
+	</section>
+	
 </article>
-    </div>
-  
-</section>
-
-
+<script>
+	window.subData = {
+		title: 'python爬虫框架Scrapy[1]',
+		tools: true
+	}
+</script>
 
       </div>
       <aside class='l_side'>

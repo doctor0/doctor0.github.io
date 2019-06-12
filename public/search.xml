@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>hexo建站过程</title>
-      <link href="/2019/05/29/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/"/>
-      <url>/2019/05/29/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/</url>
-      
-        <content type="html"><![CDATA[<p>hexo官网提供了完整的建站流程，这边就不赘述了。<br><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p><p>git教程可以参考廖雪峰的网站（git感觉和正则一样，不用就忘了。。。）：<br><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">https://www.liaoxuefeng.com/wiki/896043488029600</a></p><p>github建站流程：<br><a href="https://www.jianshu.com/p/7124c5fe0fa7" target="_blank" rel="noopener">https://www.jianshu.com/p/7124c5fe0fa7</a></p><p>theme：<br><a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p><p>我用的是MaterialFlow（赞）：<br><a href="https://github.com/stkevintan/hexo-theme-material-flow" target="_blank" rel="noopener">https://github.com/stkevintan/hexo-theme-material-flow</a></p><p>这个网站也花了差不多两个晚上，但也比自己写（说的好像我会写一样）要快很多了。好了，属于我自己的网站就诞生了。</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[python爬虫框架Scrapy[1]]]></title>
+    <url>%2F2019%2F06%2F12%2Fpython%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6Scrapy-1%2F</url>
+    <content type="text"><![CDATA[XPath表达式：选中整个文档: $x(‘/html’)选择多个p标签中的一个: $x(‘/html/body/div/p[*]’) ‘//‘ 语法(可以取得某一特定类型的元素):$x(‘//p’)使用text()函数，只选取文本: $x(‘//a/text()’)使用符号来选择指定层级的所有元素: $x(‘//div/‘)还可以使用更高级的谓词来选取元素:$x(‘//a[@href]’)$x(‘//a[contains(@href,”iana”)]’)$x(‘//a[start-with(@href,”http://www.&quot;)]&#39;)$x(‘//a[not(contains(@href,”abc”))]’)… HtmlResponse类response.xpath(‘/html’).extract()… 任务示例：获取id为”firstHeading”的h1标签下span中的text.//h1[@id=”firstHeading”]/span/text()获取id为”toc”的div标签内的ul中所有链接的URL//div[@id=”toc”]/ul//a/@href获取class属性包含”ltr”以及class属性包含”skin-vector”的任意元素内所有h1中的文本。这两个字符串可能在同一个class中，也可能在不同的class中。//[contains(@class,”ltr”) and contains(@class,”skin-vector”)]//h1//text()选择class属性值为”infobox”的表格中第一张图片的URL。//table[@class=”infobox”]//img[1]/@src选择class属性以”refirst”开头的div标签中所有链接的URL//table[start-with(@class,”refirst”)]//a/@href选择子元素包含文本”References”的元素之后的div元素中所有链接的URL//[text()=”References”]/../following-sibling::div//a/@href获取页面中每张图片的URL//img/@src 预见变化1、避免使用数组索引(数值)2、类并没有那么好用(会变化)3、有意义的面向数据的类要比具体的或者面向布局的类好4、ID通常是最可靠的]]></content>
       <categories>
-          
-          <category> 建站 </category>
-          
+        <category>爬虫</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> MaterialFlow </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>Scrapy</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo建站过程]]></title>
+    <url>%2F2019%2F05%2F29%2Fhexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[hexo官网提供了完整的建站流程，这边就不赘述了。https://hexo.io/zh-cn/docs/ git教程可以参考廖雪峰的网站（git感觉和正则一样，不用就忘了。。。）：https://www.liaoxuefeng.com/wiki/896043488029600 github建站流程：https://www.jianshu.com/p/7124c5fe0fa7 theme：https://hexo.io/themes/ 我用的是MaterialFlow（赞）：https://github.com/stkevintan/hexo-theme-material-flow 这个网站也花了差不多两个晚上，但也比自己写（说的好像我会写一样）要快很多了。好了，属于我自己的网站就诞生了。]]></content>
+      <categories>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>MaterialFlow</tag>
+      </tags>
+  </entry>
 </search>
