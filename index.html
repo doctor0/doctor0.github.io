@@ -143,8 +143,7 @@
 
   </section>
   <section class="article typo">
-	  <p>XPath表达式：<br>选中整个文档: $x(‘/html’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/1.png"><br>选择多个p标签中的一个: $x(‘/html/body/div/p[*]’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/2.png"></p>
-<p>‘//‘ 语法(可以取得某一特定类型的元素):<br>$x(‘//p’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/3.png"><br>使用text()函数，只选取文本: $x(‘//a/text()’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/4.png"><br>使用<em>符号来选择指定层级的所有元素: $x(‘//div/</em>‘)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/5.png"><br>还可以使用更高级的谓词来选取元素:<br>$x(‘//a[@href]’)<br>$x(‘//a[contains(@href,”iana”)]’)<br>$x(‘//a[start-with(@href,”<a href="http://www.&quot;)]&#39;" target="_blank" rel="noopener">http://www.&quot;)]&#39;</a>)<br>$x(‘//a[not(contains(@href,”abc”))]’)<br>…<br>
+	  <p>XPath表达式：<br>选中整个文档: $x(‘/html’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/1.png"><br>选择多个p标签中的一个: $x(‘/html/body/div/p[<em>]’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/2.png"><br>
     
 	  <div class="readmore">
       <a href="/2019/06/12/python爬虫框架Scrapy-1/">Read More</a>
@@ -160,7 +159,7 @@
       
 	  </div>
     
-  </p></section>
+  </em></p></section>
 </article>
     </div>
   
