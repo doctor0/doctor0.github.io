@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://doctor0.github.io/"/>
-  <updated>2019-06-12T09:02:17.330Z</updated>
+  <updated>2019-06-17T13:12:26.245Z</updated>
   <id>https://doctor0.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[应急响应]驱动人生挖矿蠕虫</title>
+    <link href="https://doctor0.github.io/2019/06/17/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94-%E9%A9%B1%E5%8A%A8%E4%BA%BA%E7%94%9F%E6%8C%96%E7%9F%BF%E8%A0%95%E8%99%AB/"/>
+    <id>https://doctor0.github.io/2019/06/17/应急响应-驱动人生挖矿蠕虫/</id>
+    <published>2019-06-17T12:42:42.000Z</published>
+    <updated>2019-06-17T13:12:26.245Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为之前不是很熟悉驱动人生挖矿蠕虫，所以这里主要是学习大牛的分析文章<br>“驱动人生”木马详细分析报告 2小时感染10万台电脑挖门罗币<br>地址：<a href="https://www.freebuf.com/column/192015.html" target="_blank" rel="noopener">https://www.freebuf.com/column/192015.html</a></p><p>“驱动人生”木马是通过驱动人生的升级通道，并且同时利用”永恒之蓝”漏洞进行传播的高危漏洞。<br>病毒特点：<br>1、驱动人生升级通道传播的病毒会在中毒电脑中安装云控木马<br>2、病毒会利用永恒之蓝在局域网内进行主动扩散<br>3、通过云端控制收集中毒电脑部分信息，接受云端指令在中毒电脑进行门罗币挖矿</p><img src="/2019/06/17/应急响应-驱动人生挖矿蠕虫/1.png">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;因为之前不是很熟悉驱动人生挖矿蠕虫，所以这里主要是学习大牛的分析文章&lt;br&gt;“驱动人生”木马详细分析报告 2小时感染10万台电脑挖门罗币&lt;br&gt;地址：&lt;a href=&quot;https://www.freebuf.com/column/192015.html&quot; target=&quot;_
+      
+    
+    </summary>
+    
+      <category term="应急响应" scheme="https://doctor0.github.io/categories/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94/"/>
+    
+    
+      <category term="驱动人生" scheme="https://doctor0.github.io/tags/%E9%A9%B1%E5%8A%A8%E4%BA%BA%E7%94%9F/"/>
+    
+      <category term="挖矿" scheme="https://doctor0.github.io/tags/%E6%8C%96%E7%9F%BF/"/>
+    
+      <category term="蠕虫" scheme="https://doctor0.github.io/tags/%E8%A0%95%E8%99%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>python爬虫框架Scrapy[1]</title>
