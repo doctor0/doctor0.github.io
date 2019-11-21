@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>[应急响应]驱动人生挖矿蠕虫 | SA1DE5&#39;s Blog</title>
+  <title>zk | SA1DE5&#39;s Blog</title>
   <meta name="description" content>
   <meta name="keywords" content>
   <meta name="HandheldFriendly" content="True">
@@ -12,20 +12,14 @@
   <link rel="shortcut icon" href="/images/sh.ico">
   <link rel="alternate" href="/atom.xml" title="SA1DE5's Blog">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="因为之前不是很熟悉驱动人生挖矿蠕虫，所以这里主要是学习大牛的分析文章“驱动人生”木马详细分析报告 2小时感染10万台电脑挖门罗币地址：https://www.freebuf.com/column/192015.html “驱动人生”木马是通过驱动人生的升级通道，并且同时利用”永恒之蓝”漏洞进行传播的高危漏洞。病毒特点：1、驱动人生升级通道传播的病毒会在中毒电脑中安装云控木马2、病毒会利用永恒之蓝在">
-<meta name="keywords" content="驱动人生,挖矿,蠕虫">
-<meta property="og:type" content="article">
-<meta property="og:title" content="[应急响应]驱动人生挖矿蠕虫">
-<meta property="og:url" content="https://doctor0.github.io/2019/06/17/应急响应-驱动人生挖矿蠕虫/index.html">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="zk">
+<meta property="og:url" content="https://doctor0.github.io/2019/07/18/zk/index.html">
 <meta property="og:site_name" content="SA1DE5&#39;s Blog">
-<meta property="og:description" content="因为之前不是很熟悉驱动人生挖矿蠕虫，所以这里主要是学习大牛的分析文章“驱动人生”木马详细分析报告 2小时感染10万台电脑挖门罗币地址：https://www.freebuf.com/column/192015.html “驱动人生”木马是通过驱动人生的升级通道，并且同时利用”永恒之蓝”漏洞进行传播的高危漏洞。病毒特点：1、驱动人生升级通道传播的病毒会在中毒电脑中安装云控木马2、病毒会利用永恒之蓝在">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://doctor0.github.io/2019/06/17/应急响应-驱动人生挖矿蠕虫/1.png">
-<meta property="og:updated_time" content="2019-06-17T13:12:28.000Z">
+<meta property="og:updated_time" content="2019-07-18T02:43:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="[应急响应]驱动人生挖矿蠕虫">
-<meta name="twitter:description" content="因为之前不是很熟悉驱动人生挖矿蠕虫，所以这里主要是学习大牛的分析文章“驱动人生”木马详细分析报告 2小时感染10万台电脑挖门罗币地址：https://www.freebuf.com/column/192015.html “驱动人生”木马是通过驱动人生的升级通道，并且同时利用”永恒之蓝”漏洞进行传播的高危漏洞。病毒特点：1、驱动人生升级通道传播的病毒会在中毒电脑中安装云控木马2、病毒会利用永恒之蓝在">
-<meta name="twitter:image" content="https://doctor0.github.io/2019/06/17/应急响应-驱动人生挖矿蠕虫/1.png">
+<meta name="twitter:title" content="zk">
     
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -126,55 +120,33 @@
   <div class="l_body">
     <div class='container clearfix'>
       <div class='l_main'>
-        <article id="post-应急响应-驱动人生挖矿蠕虫" class="post white-box article-type-post" itemscope itemprop="blogPost">
+        <article id="post-zk" class="post white-box article-type-post" itemscope itemprop="blogPost">
 	<section class="meta">
 	<h2 class="title">
-  	<a href="/2019/06/17/应急响应-驱动人生挖矿蠕虫/">
-    	[应急响应]驱动人生挖矿蠕虫
+  	<a href="/2019/07/18/zk/">
+    	zk
     </a>
   </h2>
 	<time>
-	  Jun 17, 2019
+	  Jul 18, 2019
 	</time>
 	
-    
-    <div class="cats">
-        <a href="/categories/应急响应/">应急响应</a>
-    </div>
-
 	</section>
 	
 		<section class="toc-wrapper"></section>
 	
 	<section class="article typo">
   	<div class="article-entry" itemprop="articleBody">
-    	<p>因为之前不是很熟悉驱动人生挖矿蠕虫，所以这里主要是学习大牛的分析文章<br>“驱动人生”木马详细分析报告 2小时感染10万台电脑挖门罗币<br>地址：<a href="https://www.freebuf.com/column/192015.html" target="_blank" rel="noopener">https://www.freebuf.com/column/192015.html</a></p>
-<p>“驱动人生”木马是通过驱动人生的升级通道，并且同时利用”永恒之蓝”漏洞进行传播的高危漏洞。<br>病毒特点：<br>1、驱动人生升级通道传播的病毒会在中毒电脑中安装云控木马<br>2、病毒会利用永恒之蓝在局域网内进行主动扩散<br>3、通过云端控制收集中毒电脑部分信息，接受云端指令在中毒电脑进行门罗币挖矿</p>
-<img src="/2019/06/17/应急响应-驱动人生挖矿蠕虫/1.png">
-
+    	
   	</div>
 	  
-	  <div class="article-tags tags">
-      
-        <a href="/tags/驱动人生/">驱动人生</a>
-      
-        <a href="/tags/挖矿/">挖矿</a>
-      
-        <a href="/tags/蠕虫/">蠕虫</a>
-      
-	  </div>
-    
 		
 	
 		<div class="art-item-footer">
 				
-					<span class="art-item-left"><i class="icon icon-chevron-thin-left"></i>prev：<a href="/2019/07/18/zk/" rel="prev" title="zk">
-						zk 
-					</a></span>
 				
-				
-					<span class="art-item-right">next：<a href="/2019/06/12/python爬虫框架Scrapy-1/" rel="next" title="python爬虫框架Scrapy[1]">
-						python爬虫框架Scrapy[1]
+					<span class="art-item-right">next：<a href="/2019/06/17/应急响应-驱动人生挖矿蠕虫/" rel="next" title="[应急响应]驱动人生挖矿蠕虫">
+						[应急响应]驱动人生挖矿蠕虫
 					</a><i class="icon icon-chevron-thin-right"></i></span>
 				
 		</div>
@@ -184,7 +156,7 @@
 </article>
 <script>
 	window.subData = {
-		title: '[应急响应]驱动人生挖矿蠕虫',
+		title: 'zk',
 		tools: true
 	}
 </script>
