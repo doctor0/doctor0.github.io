@@ -1,51 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[谈谈我对未来的规划]]></title>
-    <url>%2F2019%2F11%2F21%2F%E8%B0%88%E8%B0%88%E6%88%91%E5%AF%B9%E6%9C%AA%E6%9D%A5%E7%9A%84%E8%A7%84%E5%88%92%2F</url>
-    <content type="text"><![CDATA[因为之前博客的文件夹和hexo的环境在公司电脑上，回来就懒得在自己电脑上搞了，导致博客一直没有更新。今天把这些在自己电脑上搞完，想想应该写点什么，索性就谈谈自己之后的规划和打算。 我对未来的打算就是健身、学习。先从健身说起吧，我刚上大学时体重是138斤，大学毕业160+，回想整个大学，好像增长的就只有体重（真是讽刺啊）。所以呢，我把健身放在第一位，不仅仅是为了健康，更是希望能够回到以前高四时的精神面貌。工作后的我太缺乏斗志以及对学习的热情，就像是温水里的青蛙坐以待毙，这太可怕了。 高四毕业后，没有老师的管教，好像我都不会学习了，整个大学四年都很少投入精力在学习上，总是需要别人的督促，需要别人的成功来激励自己，然而往往都是坚持2、3天就放弃了。大学这四年错过了太多的机会，说到底就是肚子里没”货“，对自己不自信。哈（ku）哈（se），其实学习什么时间都来得及，关键就是坚持，所以在这里我要逼下自己，给自己多点压力，这样不至于被他们甩的太远。 那么总得要有个期限有个目标吧。 1、从现在到春节前体重从现在的166减到150； 2、重新学习owasp top10，熟悉每一个常见漏洞的攻击手段、防御方法、以及实战。 3、在这2个多月里，各大src平台的漏洞总收益要过2000（原谅我是个菜鸟） 4、精通python、scrapy、python绝技，会写渗透测试时需要的自动化攻击。 5、刷500道ctf题 6、熟悉内网渗透 7、攒一万块 故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。 我会常更新博客，春节前把目标完成情况发上来。 最后附上我鸟的美照（捂眼睛）]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>谈谈我对未来的规划</title>
+      <link href="/2019/11/21/%E8%B0%88%E8%B0%88%E6%88%91%E5%AF%B9%E6%9C%AA%E6%9D%A5%E7%9A%84%E8%A7%84%E5%88%92/"/>
+      <url>/2019/11/21/%E8%B0%88%E8%B0%88%E6%88%91%E5%AF%B9%E6%9C%AA%E6%9D%A5%E7%9A%84%E8%A7%84%E5%88%92/</url>
+      
+        <content type="html"><![CDATA[<p>  因为之前博客的文件夹和hexo的环境在公司电脑上，回来就懒得在自己电脑上搞了，导致博客一直没有更新。今天把这些在自己电脑上搞完，想想应该写点什么，索性就谈谈自己之后的规划和打算。</p><p>  我对未来的打算就是健身、学习。先从健身说起吧，我刚上大学时体重是138斤，大学毕业160+，回想整个大学，好像增长的就只有体重（真是讽刺啊）。所以呢，我把健身放在第一位，不仅仅是为了健康，更是希望能够回到以前高四时的精神面貌。工作后的我太缺乏斗志以及对学习的热情，就像是温水里的青蛙坐以待毙，这太可怕了。</p><p>  高四毕业后，没有老师的管教，好像我都不会学习了，整个大学四年都很少投入精力在学习上，总是需要别人的督促，需要别人的成功来激励自己，然而往往都是坚持2、3天就放弃了。大学这四年错过了太多的机会，说到底就是肚子里没”货“，对自己不自信。哈（ku）哈（se），其实学习什么时间都来得及，关键就是坚持，所以在这里我要逼下自己，给自己多点压力，这样不至于被他们甩的太远。<br><a id="more"></a><br>  那么总得要有个期限有个目标吧。<br>  1、从现在到春节前体重从现在的166减到150；<br>  2、重新学习owasp top10，熟悉每一个常见漏洞的攻击手段、防御方法、以及实战。<br>  3、在这2个多月里，各大src平台的漏洞总收益要过2000（原谅我是个菜鸟）<br>  4、精通python、scrapy、python绝技，会写渗透测试时需要的自动化攻击。<br>  5、刷500道ctf题<br>  6、熟悉内网渗透<br>  7、攒一万块</p><p>  故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。</p><p>  我会常更新博客，春节前把目标完成情况发上来。</p><p>  最后附上我鸟的美照（捂眼睛）<br>  <img src="/2019/11/21/谈谈我对未来的规划/zt1.jpg"></p>]]></content>
+      
+      
       <categories>
-        <category>想说的话</category>
+          
+          <category> 想说的话 </category>
+          
       </categories>
-      <tags>
-        <tag>我是认真的</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[[应急响应]驱动人生挖矿蠕虫]]></title>
-    <url>%2F2019%2F06%2F17%2F%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94-%E9%A9%B1%E5%8A%A8%E4%BA%BA%E7%94%9F%E6%8C%96%E7%9F%BF%E8%A0%95%E8%99%AB%2F</url>
-    <content type="text"><![CDATA[因为之前不是很熟悉驱动人生挖矿蠕虫，所以这里主要是学习大牛的分析文章“驱动人生”木马详细分析报告 2小时感染10万台电脑挖门罗币地址：https://www.freebuf.com/column/192015.html “驱动人生”木马是通过驱动人生的升级通道，并且同时利用”永恒之蓝”漏洞进行传播的高危漏洞。病毒特点：1、驱动人生升级通道传播的病毒会在中毒电脑中安装云控木马2、病毒会利用永恒之蓝在局域网内进行主动扩散3、通过云端控制收集中毒电脑部分信息，接受云端指令在中毒电脑进行门罗币挖矿]]></content>
+      
+      
+        <tags>
+            
+            <tag> 我是认真的 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[应急响应]驱动人生挖矿蠕虫</title>
+      <link href="/2019/06/17/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94-%E9%A9%B1%E5%8A%A8%E4%BA%BA%E7%94%9F%E6%8C%96%E7%9F%BF%E8%A0%95%E8%99%AB/"/>
+      <url>/2019/06/17/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94-%E9%A9%B1%E5%8A%A8%E4%BA%BA%E7%94%9F%E6%8C%96%E7%9F%BF%E8%A0%95%E8%99%AB/</url>
+      
+        <content type="html"><![CDATA[<p>因为之前不是很熟悉驱动人生挖矿蠕虫，所以这里主要是学习大牛的分析文章<br>“驱动人生”木马详细分析报告 2小时感染10万台电脑挖门罗币<br>地址：<a href="https://www.freebuf.com/column/192015.html" target="_blank" rel="noopener">https://www.freebuf.com/column/192015.html</a></p><p>“驱动人生”木马是通过驱动人生的升级通道，并且同时利用”永恒之蓝”漏洞进行传播的高危漏洞。<br>病毒特点：<br>1、驱动人生升级通道传播的病毒会在中毒电脑中安装云控木马<br>2、病毒会利用永恒之蓝在局域网内进行主动扩散<br>3、通过云端控制收集中毒电脑部分信息，接受云端指令在中毒电脑进行门罗币挖矿</p><img src="/2019/06/17/应急响应-驱动人生挖矿蠕虫/1.png">]]></content>
+      
+      
       <categories>
-        <category>应急响应</category>
+          
+          <category> 应急响应 </category>
+          
       </categories>
-      <tags>
-        <tag>驱动人生</tag>
-        <tag>挖矿</tag>
-        <tag>蠕虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python爬虫框架Scrapy[1]]]></title>
-    <url>%2F2019%2F06%2F12%2Fpython%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6Scrapy-1%2F</url>
-    <content type="text"><![CDATA[XPath表达式： 选中整个文档: $x(‘/html’) 选择多个p标签中的一个: $x(‘/html/body/div/p[*]’) ‘//‘ 语法(可以取得某一特定类型的元素):$x(‘//p’) 使用text()函数，只选取文本: $x(‘//a/text()’) 使用星符号来选择指定层级的所有元素: $x(‘//div/*’) 还可以使用更高级的谓词来选取元素:$x(‘//a[@href]’)$x(‘//a[contains(@href,”iana”)]’)$x(‘//a[start-with(@href,”http://www.&quot;)]&#39;)$x(‘//a[not(contains(@href,”abc”))]’) HtmlResponse类response.xpath(‘/html’).extract() 任务示例：获取id为”firstHeading”的h1标签下span中的text.//h1[@id=”firstHeading”]/span/text() 获取id为”toc”的div标签内的ul中所有链接的URL//div[@id=”toc”]/ul//a/@href 获取class属性包含”ltr”以及class属性包含”skin-vector”的任意元素内所有h1中的文本。这两个字符串可能在同一个class中，也可能在不同的class中。//*[contains(@class,”ltr”) and contains(@class,”skin-vector”)]//h1//text() 选择class属性值为”infobox”的表格中第一张图片的URL。//table[@class=”infobox”]//img[1]/@src 选择class属性以”refirst”开头的div标签中所有链接的URL//table[start-with(@class,”refirst”)]//a/@href 选择子元素包含文本”References”的元素之后的div元素中所有链接的URL//*[text()=”References”]/../following-sibling::div//a/@href 获取页面中每张图片的URL//img/@src 预见变化1、避免使用数组索引(数值)2、类并没有那么好用(会变化)3、有意义的面向数据的类要比具体的或者面向布局的类好4、ID通常是最可靠的]]></content>
+      
+      
+        <tags>
+            
+            <tag> 驱动人生 </tag>
+            
+            <tag> 挖矿 </tag>
+            
+            <tag> 蠕虫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python爬虫框架Scrapy[1]</title>
+      <link href="/2019/06/12/python%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6Scrapy-1/"/>
+      <url>/2019/06/12/python%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6Scrapy-1/</url>
+      
+        <content type="html"><![CDATA[<p>XPath表达式：</p><p>选中整个文档: $x(‘/html’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/1.png"></p><p>选择多个p标签中的一个: $x(‘/html/body/div/p[*]’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/2.png" title="left"><br><a id="more"></a></p><p>‘//‘ 语法(可以取得某一特定类型的元素):<br>$x(‘//p’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/3.png"></p><p>使用text()函数，只选取文本: $x(‘//a/text()’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/4.png"></p><p>使用星符号来选择指定层级的所有元素: $x(‘//div/*’)<br><img src="/2019/06/12/python爬虫框架Scrapy-1/5.png"></p><p>还可以使用更高级的谓词来选取元素:<br>$x(‘//a[@href]’)<br>$x(‘//a[contains(@href,”iana”)]’)<br>$x(‘//a[start-with(@href,”<a href="http://www.&quot;)]&#39;" target="_blank" rel="noopener">http://www.&quot;)]&#39;</a>)<br>$x(‘//a[not(contains(@href,”abc”))]’) </p><p>HtmlResponse类<br>response.xpath(‘/html’).extract()</p><p>任务示例：<br>获取id为”firstHeading”的h1标签下span中的text.<br>//h1[@id=”firstHeading”]/span/text()</p><p>获取id为”toc”的div标签内的ul中所有链接的URL<br>//div[@id=”toc”]/ul//a/@href</p><p>获取class属性包含”ltr”以及class属性包含”skin-vector”的任意元素内所有h1中的文本。这两个字符串可能在同一个class中，也可能在不同的class中。<br>//*[contains(@class,”ltr”) and contains(@class,”skin-vector”)]//h1//text()</p><p>选择class属性值为”infobox”的表格中第一张图片的URL。<br>//table[@class=”infobox”]//img[1]/@src</p><p>选择class属性以”refirst”开头的div标签中所有链接的URL<br>//table[start-with(@class,”refirst”)]//a/@href</p><p>选择子元素包含文本”References”的元素之后的div元素中所有链接的URL<br>//*[text()=”References”]/../following-sibling::div//a/@href</p><p>获取页面中每张图片的URL<br>//img/@src</p><p>预见变化<br>1、避免使用数组索引(数值)<br>2、类并没有那么好用(会变化)<br>3、有意义的面向数据的类要比具体的或者面向布局的类好<br>4、ID通常是最可靠的</p>]]></content>
+      
+      
       <categories>
-        <category>爬虫</category>
+          
+          <category> 爬虫 </category>
+          
       </categories>
-      <tags>
-        <tag>Scrapy</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[hexo建站过程]]></title>
-    <url>%2F2019%2F05%2F29%2Fhexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[hexo官网提供了完整的建站流程，这边就不赘述了。https://hexo.io/zh-cn/docs/ git教程可以参考廖雪峰的网站（git感觉和正则一样，不用就忘了。。。）：https://www.liaoxuefeng.com/wiki/896043488029600 github建站流程：https://www.jianshu.com/p/7124c5fe0fa7 theme：https://hexo.io/themes/ 我用的是MaterialFlow（赞）：https://github.com/stkevintan/hexo-theme-material-flow 这个网站也花了差不多两个晚上，但也比自己写（说的好像我会写一样）要快很多了。好了，属于我自己的网站就诞生了。]]></content>
+      
+      
+        <tags>
+            
+            <tag> Scrapy </tag>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo建站过程</title>
+      <link href="/2019/05/29/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/"/>
+      <url>/2019/05/29/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>hexo官网提供了完整的建站流程，这边就不赘述了。<br><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p><p>git教程可以参考廖雪峰的网站（git感觉和正则一样，不用就忘了。。。）：<br><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">https://www.liaoxuefeng.com/wiki/896043488029600</a></p><p>github建站流程：<br><a href="https://www.jianshu.com/p/7124c5fe0fa7" target="_blank" rel="noopener">https://www.jianshu.com/p/7124c5fe0fa7</a></p><p>theme：<br><a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p><p>我用的是MaterialFlow（赞）：<br><a href="https://github.com/stkevintan/hexo-theme-material-flow" target="_blank" rel="noopener">https://github.com/stkevintan/hexo-theme-material-flow</a></p><p>这个网站也花了差不多两个晚上，但也比自己写（说的好像我会写一样）要快很多了。好了，属于我自己的网站就诞生了。</p>]]></content>
+      
+      
       <categories>
-        <category>建站</category>
+          
+          <category> 建站 </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>MaterialFlow</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> MaterialFlow </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
